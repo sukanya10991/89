@@ -1,0 +1,53 @@
+body
+{
+    	background-image:url("bubbles-blue-pink-background_23-2147876008.jpg");
+        background-position: center;
+        background-size: cover;
+}
+
+	.login_div1 , .login_div2
+	{
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		background:linear-gradient(pink 0% , lightblue 100%);
+	}
+
+
+#player1_name , #player2_name
+{
+	margin-left: 20px;	
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background:white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#hello{
+	font-size: 30px;
+	background:linear-gradient(pink 0% , lightblue 100%);
+	color:white !important;
+	border-spacing: 10px;
+	border-style:solid;
+	border-color:white;
+	border-width: 4px;
+}
+label{
+	font-size:20px;
+    color: white !important;
+}
+h2{
+    color: white !important;
+}
