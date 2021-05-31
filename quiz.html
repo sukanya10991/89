@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Math quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div>
+    <span><h4 id="player1_name">h</h4><h4 id="player1_score">i</h4></span>
+	 <br>
+    <span><h4 id="player2_name">h</h4><h4 id="player2_score">e</h4></span>
+</div>
+    <center>
+       <div id="the" class="container">
+        <h2>Math Quiz</h2>
+        <br>
+		<h2>Type your answer in the input box below!</h2>
+         <span><h3>Questioner-</h3><h3 id="qname"></h3></span>
+         <span><h3>Answerer-</h3><h3 id="aname"></h3></span>
+         <span><h3 id="num1"></h3><h3 id="operation"></h3><h3 id=num2></h3></span>
+         <input id="answer" type="text" placeholder="Type in your answer">
+         <br>
+         <br>
+         <button id="check" onclick="check()">Check</button>
+
+   </div>
+</center>
+<script src="main.js"></script>
+</body>
+</html>

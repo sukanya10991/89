@@ -38,16 +38,17 @@ text-align: left;
 #hello{
 	font-size: 30px;
 	background:linear-gradient(pink 0% , lightblue 100%);
-	color:white !important;
+	color:rgb(175, 94, 175) !important;
 	border-spacing: 10px;
 	border-style:solid;
 	border-color:white;
 	border-width: 4px;
+	border-radius: 13px;
 }
 label{
 	font-size:20px;
-    color: white !important;
+    color: rgb(175, 94, 175) !important;
 }
 h2{
-    color: white !important;
+    color: rgb(175, 94, 175) !important;
 }

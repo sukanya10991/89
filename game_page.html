@@ -1,0 +1,77 @@
+<html>
+<head>
+	<title>Math quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="game_page.css">
+</head>
+<body>
+    <h4 id="player1name"></h4><span id="player1_score"></span>
+    <br>
+    <h4 id="player2name"></h4><span id="player2_score"></span>
+    <center>
+    <div id="blackpink" class="container">
+        <h2>Math Quiz</h2>
+        <br>
+		<br>
+		<label>Type in who will be the questioner and who will the answerer.</label>
+        <label>Also type in the two numbers and which operation you wish to perform on them.</label>
+        <label>Remember, type in the signs of the operation!</label>
+        <br>
+        <label>Subtraction = "-".</label>
+  </div>
+   <br>
+   <br>
+   <div id="rose" class="container">
+       <h1 class="btn btn-danger" id="hi"></h1>
+       <br>
+    <label>Questioner:</label>
+    <br>
+    <input id="questioner" type="text" placeholder="Type in questioner name">
+    <br>
+    <label>Answerer:</label>
+    <br>
+    <input id="answerer" type="text" placeholder="Type in answerer name">
+    <br>
+    <label>Number 1:</label>
+    <br>
+    <input id="number1" type="text" placeholder="Type in number 1">
+    <br>
+    <label>Number 2:</label>
+    <br>
+    <input id="number2" type="text" placeholder="Type in number 2">
+    <br>
+    <label>Operation:</label>
+    <br>
+    <br>    
+</div>
+<br>
+<button id="submit" onclick="black()">Submit</button>
+<br>
+<br>
+<div id="the" class="container">
+    <h4 id="player1_name"></h4><h4 id="player1_score"></h4>
+	 <br>
+    <span><h4 id="player2_name"></h4><h4 id="player2_score"></h4></span>
+
+    <center>
+        <h2>Math Quiz</h2>
+        <br>
+		<h2>Type your answer in the input box below!</h2>
+         <span><h3>Questioner-</h3><h3 id="qname"></h3></span>
+         <span><h3>Answerer-</h3><h3 id="aname"></h3></span>
+         <span><h3 id="num1"></h3><h3 id="operation"></h3><h3 id=num2></h3></span>
+         <input id="answer" type="text" placeholder="Type in your answer">
+         <br>
+         <br>
+         <button id="check" onclick="check()">Check</button>
+
+   </div>
+</center>
+<script src="game_page.js"></script>
+</body>
+</html>
