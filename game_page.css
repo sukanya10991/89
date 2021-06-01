@@ -46,27 +46,40 @@ h2{
 	border-style:solid;
 	border-color:white;
 	border-width: 6px;
+	width:87%;
+}
+p{
+    font-size:20px;
+    color: rgb(175, 94, 175) !important;
+}
+h2{
+	color: rgb(175, 94, 175) !important;
+}
+#check{
+	font-size: 30px;
+	background:linear-gradient(pink 0% , lightblue 100%);
+	color:rgb(175, 94, 175) !important;
+	border-spacing: 10px;
+	border-radius: 13px;
+	border-style:solid;
+	border-color:white;
+	border-width: 4px;
 	}
-	p{
-	font-size:20px;
+h4{
 	color: rgb(175, 94, 175) !important;
 	}
-	h2{
+h3{
 	color: rgb(175, 94, 175) !important;
-	}
-	#check{
-		font-size: 30px;
-		background:linear-gradient(pink 0% , lightblue 100%);
-		color:rgb(175, 94, 175) !important;
-		border-spacing: 10px;
-		border-radius: 13px;
-		border-style:solid;
-		border-color:white;
-		border-width: 4px;
-	}
-	h4{
-		color: rgb(175, 94, 175) !important;
-		}
-	h3{
-		 color: rgb(175, 94, 175) !important;
-		}
+}
+#player1_name{
+	color: rgb(175, 94, 175) !important;
+}
+#player2_name{
+	color: rgb(175, 94, 175) !important;
+}
+#player1_score{
+	color: rgb(175, 94, 175) !important;
+}
+#player2_score{
+	color: rgb(175, 94, 175) !important;
+}
